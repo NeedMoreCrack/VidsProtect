@@ -1,4 +1,4 @@
-# 🔐 VidsProtect
+# 🔐 VidProtect
 
 > **Multilingual Video Protection Tool** | 影片加密保護工具 | 動画保護ツール
 
@@ -23,7 +23,7 @@ A Python-based video encryption tool that splits video files into AES-256-GCM en
 
 ## Overview
 
-**VidsProtect** protects video content by:
+**VidProtect** protects video content by:
 
 - ✂️ Splitting video files into multiple encrypted shards
 - 🔒 Encrypting each shard with **AES-256-GCM**
@@ -40,11 +40,14 @@ A Python-based video encryption tool that splits video files into AES-256-GCM en
 ## Project Structure
 
 ```
-VidsProtect/
-├── encrypt_video.py     # Encrypts video files
-├── decrypt_video.py     # Decrypts encrypted shards
-├── video_tool.py        # Main entry point (encrypt / decrypt)
-└── video_tool.exe       # Packaged executable for end users
+VidProtect/
+├── dist/
+│   └── video_tool.exe       # Packaged executable for end users
+├── encrypt_video.py         # Encrypts video files
+├── decrypt_video.py         # Decrypts encrypted shards
+├── video_tool.py            # Main entry point (encrypt / decrypt)
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -195,7 +198,7 @@ shard_a.enc,shard_b.enc,shard_c.enc,shard_d.enc
 
 ### 1. 工具簡介
 
-VidsProtect 是一個以 Python 製作的影片保護工具，提供以下功能：
+VidProtect 是一個以 Python 製作的影片保護工具，提供以下功能：
 
 - 將影片檔案切割成多個加密分片
 - 每個分片使用 **AES-256-GCM** 加密
@@ -214,11 +217,14 @@ VidsProtect 是一個以 Python 製作的影片保護工具，提供以下功能
 ### 2. 工具結構
 
 ```
-VidsProtect/
-├── encrypt_video.py     # 負責加密影片
-├── decrypt_video.py     # 負責解密影片
-├── video_tool.py        # 主入口工具，可選擇加密或解密
-└── video_tool.exe       # 打包後供一般使用者直接執行的版本
+VidProtect/
+├── dist/
+│   └── video_tool.exe       # 打包後供一般使用者直接執行的版本
+├── encrypt_video.py         # 負責加密影片
+├── decrypt_video.py         # 負責解密影片
+├── video_tool.py            # 主入口工具，可選擇加密或解密
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -365,7 +371,7 @@ shard_a.enc,shard_b.enc,shard_c.enc,shard_d.enc
 
 ### 1. 概要
 
-VidsProtect は Python ベースの動画保護ツールです。主な機能は以下の通りです：
+VidProtect は Python ベースの動画保護ツールです。主な機能は以下の通りです：
 
 - 動画ファイルを複数の暗号化シャードに分割
 - 各シャードを **AES-256-GCM** で暗号化
@@ -384,11 +390,14 @@ VidsProtect は Python ベースの動画保護ツールです。主な機能は
 ### 2. 構成ファイル
 
 ```
-VidsProtect/
-├── encrypt_video.py     # 動画暗号化
-├── decrypt_video.py     # 動画復号
-├── video_tool.py        # 暗号化・復号のメイン入口
-└── video_tool.exe       # 一般ユーザー向け実行ファイル
+VidProtect/
+├── dist/
+│   └── video_tool.exe       # 一般ユーザー向け実行ファイル
+├── encrypt_video.py         # 動画暗号化
+├── decrypt_video.py         # 動画復号
+├── video_tool.py            # 暗号化・復号のメイン入口
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -529,4 +538,4 @@ shard_a.enc,shard_b.enc,shard_c.enc,shard_d.enc
 
 ---
 
-*VidsProtect — Protect your video content with layered encryption.*
+*VidProtect — Protect your video content with layered encryption.*
