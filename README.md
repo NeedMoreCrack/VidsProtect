@@ -1,4 +1,4 @@
-# 🔐 VidProtect
+# 🔐 VidsProtect
 
 > **Multilingual Video Protection Tool** | 影片加密保護工具 | 動画保護ツール
 
